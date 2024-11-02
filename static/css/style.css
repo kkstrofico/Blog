@@ -1,0 +1,49 @@
+/* Contenido secundario decoracion */
+.contenido-secundario{
+    position: sticky;
+    top:80px;
+    height: fit-content;
+}
+/* Barra  de navegacion */
+.navbar{
+    width: 100%;
+    position: sticky;
+    top: 0.1px;
+    min-height: max-content;
+}
+.img-logo-nav{
+    filter: drop-shadow(0 0 0.75rem rgb(228, 225, 225));
+    min-height: 20px;
+    width: 40px;
+}
+/* Todas las listas */
+ul{
+    padding: 0;
+    list-style: none;
+}
+/* Encabezado */
+header{
+    background-image: url('/static/assets/header-portada.webp');
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+/* Pie de pagina */
+footer{
+    background-color: rgb(179, 165, 165);
+}
+
+@media (max-width:500px) {
+    *{
+        text-align: center;
+    }
+    aside{
+        display: none;
+    }
+    .row{
+        justify-content: center;
+    }
+    .principal-content{
+        width: 100%;
+    }
+}
