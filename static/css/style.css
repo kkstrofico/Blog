@@ -16,8 +16,9 @@
     min-height: 20px;
     width: 40px;
 }
+/* Aside */
 .frase-inspiradora{
-    font-size: xx-large;
+    font-size: large;
     font-family: cursive;
 }
 
@@ -41,8 +42,21 @@ header{
 footer{
     background-color: rgb(179, 165, 165);
 }
+.copy-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.social-icon{
+    max-width: 200px;
+}
 .volver{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.links-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 @media (max-width:500px) {
     *{
