@@ -11,6 +11,7 @@ body{
 }
 /* Barra  de navegacion */
 .navbar{
+    
     width: 100%;
     position: sticky;
     top: 0.1px;
@@ -23,8 +24,6 @@ body{
 }
 /* Aside */
 .frase-inspiradora{
-    position: sticky;
-    top:80px;
     font-size: large;
     font-family: cursive;
 }
