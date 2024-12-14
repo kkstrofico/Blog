@@ -11,7 +11,7 @@
 <body>
   <!-- Encabezado -->
    <header>
-
+    
   </header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <section class="container-fluid">
@@ -31,7 +31,7 @@
             <a class="nav-link" href="#">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Portafolio</a>
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Nosotros</a>
           </li>
         </ul>
         <section class="collapse navbar-collapse" id="navbarNavDarkDropdown">
@@ -54,55 +54,33 @@
   
   </nav>
   <!-- Contenido -->
-  <section class="container-fluid">
-    <section class="row">
-      <!-- Contenido secundario left -->
-        <aside class="col-3 contenido-secundario">
-          {%block aside%}{%endblock%}
-        </aside>
-        <!-- Contenido principal -->
-        <main class="col-6 principal-content">
-          {%block content%}{%endblock%}
-        </main>
-        <!-- Contenido secundario right -->
-        <aside class="col-3 contenido-secundario">
-          {%block aside_dos%}{%endblock%}
-        </aside>
-    </section>
-  </section>
+  <div class="container-fluid">
+    {%block content%}{%endblock%}
+  </div>
   
   <!-- Pie de pagina -->
   <footer>
-    <section class="container-fluid text-center">
-      <section class="row">
-        <section class="col">
-          <h4>Enlaces rapidos</h4>
-          <ul>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-          </ul>
-        </section>
-        <section class="col text-center">
-          <h4>Redes</h4>
-          <ul class="row">
-            <li class="col"><a class="icon-link" target="_blank" href="https://github.com/edierGuerra"><i class="bi bi-github"></i></a></li>
-            <li class="col"><a class="icon-link" target="_blank" href="https://www.linkedin.com/in/edier-guerra-404094335?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BM5EZxPv8RQi4%2BoEe6tg49g%3D%3D"><i class="bi bi-linkedin"></i></a></li>
-            <li class="col"><a class="icon-link" target="_blank" href="https://x.com/edierguerra55"><i class="bi bi-twitter-x"></i></a></li>
-          </ul>
-        </section>
-        <section class="col">
-          <h4>Contactos</h4>
-          <ul>
-            <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
-            <li><a href="#">Link</a></li>
-          </ul>
-        </section>
+    <section class="container-fluid text-center links-container">
+      <section class="col social-icon">
+        <h4>Enlaces rapidos</h4>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Sobre mi</a></li>
+          <li><a href="#">Contactame</a></li>
+        </ul>
       </section>
-      <section class="row text-center">
-        <span>@Copy right 2024</span>
-        <a class="volver" href="#">Volver</a>
+      <section class="col text-center social-icon">
+        <h4>Redes</h4>
+        <ul class="row">
+          <li class="col icon-item"><a class="icon-link" target="_blank" href="https://github.com/edierGuerra"><i class="bi bi-github"></i></a></li>
+          <li class="col icon-item"><a class="icon-link" target="_blank" href="https://www.linkedin.com/in/edier-guerra-404094335?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BM5EZxPv8RQi4%2BoEe6tg49g%3D%3D"><i class="bi bi-linkedin"></i></a></li>
+          <li class="col icon-item"><a class="icon-link" target="_blank" href="https://x.com/edierguerra55"><i class="bi bi-twitter-x"></i></a></li>
+        </ul>
       </section>
+    </section>
+    <section class="text-center copy-container">
+      <span>@Copy right 2024</span>
+      <a class="volver" href="#">Volver</a>
     </section>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

@@ -1,3 +1,8 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,56,121,1) 27%, rgba(8,87,141,1) 38%, rgba(0,212,255,1) 100%);
+    color: aliceblue;
+}
 /* Contenido secundario decoracion */
 .contenido-secundario{
     position: sticky;
@@ -6,6 +11,7 @@
 }
 /* Barra  de navegacion */
 .navbar{
+    
     width: 100%;
     position: sticky;
     top: 0.1px;
@@ -16,8 +22,9 @@
     min-height: 20px;
     width: 40px;
 }
+/* Aside */
 .frase-inspiradora{
-    font-size: xx-large;
+    font-size: large;
     font-family: cursive;
 }
 
@@ -39,10 +46,24 @@ header{
 }
 /* Pie de pagina */
 footer{
-    background-color: rgb(179, 165, 165);
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,140,253,1) 100%);
+}
+.copy-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.social-icon{
+    max-width: 200px;
 }
 .volver{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.links-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 @media (max-width:500px) {
     *{
