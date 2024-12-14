@@ -11,7 +11,7 @@
 <body>
   <!-- Encabezado -->
    <header>
-
+    
   </header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <section class="container-fluid">
@@ -54,22 +54,9 @@
   
   </nav>
   <!-- Contenido -->
-  <section class="container-fluid">
-    <section class="row">
-      <!-- Contenido secundario left -->
-        <aside class="col-3 contenido-secundario">
-          {%block aside%}{%endblock%}
-        </aside>
-        <!-- Contenido principal -->
-        <main class="col-6 principal-content">
-          {%block content%}{%endblock%}
-        </main>
-        <!-- Contenido secundario right -->
-        <aside class="col-3 contenido-secundario">
-          {%block aside_dos%}{%endblock%}
-        </aside>
-    </section>
-  </section>
+  <div class="container-fluid">
+    {%block content%}{%endblock%}
+  </div>
   
   <!-- Pie de pagina -->
   <footer>

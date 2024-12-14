@@ -1,45 +1,76 @@
 {%extends 'base.html'%}
 <!-- Titulo de la pagina -->
 {%block title%}Inicio{%endblock%}
-<!-- Aside -->
-{%block aside%}
-  <h3>Contenido realacionado</h3>
-  <ul>
-    <li><a href="#">Metodologías agiles</a></li>
-    <li><a href="#">Ciclo de vida del software</a></li>
-    <li><a href="#">Lenguajes de programación</a></li>
-  </ul>
-  <hr>
-  <h3>Enlaces</h3>
-  <ul>
-    <li><a href="#desarrollo">Desarrollo de software</a></li>
-    <li><a href="#software">Software</a></li>
-    <li><a href="#programacion">Programación</a></li>
-  </ul>
-{%endblock%}
-<!-- Main -->
-{%block content%}
-  <h1 id="desarrollo">Desarrollo de Software</h1>
-  <p>¿Alguna vez te has preguntado <strong>cómo convertirte en desarrollador de software?</strong> En este blog descubrirás todo lo necesario para iniciar tu camino en este apasionante campo. Aprenderás sobre áreas clave del desarrollo, incluyendo algoritmos, requisitos, metodologías ágiles, bases de datos, lenguajes de programación, y mucho más. Convertirte en un <strong>desarrollador exitoso</strong> dependerá de tu esfuerzo y dedicación.</p>
 
-  <p>Antes de adentrarnos en la parte técnica, primero aclaremos <strong>¿qué es el desarrollo de software?</strong> En términos sencillos, el desarrollo de software es el proceso de crear, mejorar y optimizar programas que solucionan problemas o facilitan tareas. Para lograrlo, empleamos diversas prácticas, entre las que destacan el desarrollo ágil, los casos de uso, los diagramas UML y la creación de algoritmos. A lo largo de este blog, exploraremos en detalle cada una de estas prácticas.</p>
+{% block content %}
+<div class="row">
+  <aside class="col-3 contenido-secundario">
+    <h3>Contenido relacionado</h3>
+    <ul>
+      <li><a href="#metodologias-agiles">Metodologías Ágiles</a></li>
+      <li><a href="#ciclo-vida-software">Ciclo de Vida del Software</a></li>
+      <li><a href="#lenguajes-programacion">Lenguajes de Programación</a></li>
+    </ul>
+    <hr>
+    <h3>Enlaces</h3>
+    <ul>
+      <li><a href="#desarrollo">Desarrollo de Software</a></li>
+      <li><a href="#software">Software</a></li>
+      <li><a href="#programacion">Programación</a></li>
+    </ul>
+  </aside>
 
-  <h2 id="software">Software</h2>
-  <p><strong>¿Qué es el software?</strong> Podríamos decir que el software es un medio de entretenimiento, una herramienta, un juego, y mucho más. Es decir, el software es todo elemento intangible que se encuentra dentro de un dispositivo móvil o computadora. Por ejemplo, redes sociales, Microsoft Office, Windows, plataformas de streaming... Estos son solo algunos ejemplos de software, y aunque cada uno pertenezca a una categoría diferente, todos siguen siendo software.</p>
+  <main class="col-6 principal-content">
+    <h1 id="desarrollo" class = "text-center">Desarrollo de Software</h1>
+    <p>¿Alguna vez te has preguntado <strong>cómo convertirte en desarrollador de software?</strong> En este blog descubrirás todo lo necesario para iniciar tu camino en este apasionante campo. Aprenderás sobre áreas clave del desarrollo, incluyendo algoritmos, requisitos, metodologías ágiles, bases de datos, lenguajes de programación, y mucho más. Convertirte en un <strong>desarrollador exitoso</strong> dependerá de tu esfuerzo y dedicación.</p>
 
-  <h2 id="programacion">Programación</h2>
-  <p>La <strong>programación</strong> es una herramienta utilizada para crear <strong>software</strong> a través de código, apoyándose en <strong>lenguajes de programación</strong> para lograr este objetivo. Cada lenguaje de programación tiene características únicas y ventajas frente a otros lenguajes; sin embargo, todos comparten algo en común: cuentan con <strong>estructuras</strong> básicas, como condicionales, bucles y estructuras de datos, entre otras. Ademas tambien cuentan con conceptos como varialbes, constantes, operadores, tipos de datos entre otros.</p>
-  
-  <h2>¿Cómo empezar?</h2>
-  <p>Probablemente en este momento te sientas un poco abrumado por toda la información disponible, pero no te preocupes: iremos paso a paso, y verás cómo todo comienza a tomar forma. Para comenzar, primero debemos elegir una <strong>rama del desarrollo</strong>. Existen múltiples áreas en el desarrollo de software, como <strong>frontend</strong>, <strong>backend</strong>, <strong>DevOps</strong>, <strong>análisis de datos</strong> y <strong>ciberseguridad</strong>. Estas son solo algunas de las especialidades entre las que puedes escoger. A continuación, haremos énfasis en algunas de estas áreas para ayudarte a encontrar tu especialidad.</p>
-  
-    
-{%endblock%}
-<!-- Aside -->
-{%block aside_dos%}
-  <section class="text-center">
-    <h3>!Inpirate!</h3>
-    <p><span class="frase-inspiradora">"Si puedes imaginarlo, puedes programarlo" </span> - Programación ATS
-    </section></p>
-  
-{%endblock%}
+    <p>Antes de adentrarnos en la parte técnica, primero aclaremos <strong>¿qué es el desarrollo de software?</strong> En términos sencillos, el desarrollo de software es el proceso de crear, mejorar y optimizar programas que solucionan problemas o facilitan tareas. Para lograrlo, empleamos diversas prácticas, entre las que destacan el desarrollo ágil, los casos de uso, los diagramas UML y la creación de algoritmos. A lo largo de este blog, exploraremos en detalle cada una de estas prácticas.</p>
+
+    <h2 id="software">Software</h2>
+    <p><strong>¿Qué es el software?</strong> Podríamos decir que el software es un medio de entretenimiento, una herramienta, un juego, y mucho más. Es decir, el software es todo elemento intangible que se encuentra dentro de un dispositivo móvil o computadora. Por ejemplo, redes sociales, Microsoft Office, Windows, plataformas de streaming... Estos son solo algunos ejemplos de software, y aunque cada uno pertenezca a una categoría diferente, todos siguen siendo software.</p>
+
+    <h3 id="tipos-software">Tipos de Software</h3>
+    <ul>
+      <li><strong>Software de Sistema:</strong> Sistemas operativos como Windows, Linux o macOS.</li>
+      <li><strong>Software de Aplicación:</strong> Herramientas como Microsoft Office o Adobe Photoshop.</li>
+      <li><strong>Software de Desarrollo:</strong> IDEs como Visual Studio Code o PyCharm.</li>
+    </ul>
+
+    <h2 id="programacion">Programación</h2>
+    <p>La <strong>programación</strong> es una herramienta utilizada para crear <strong>software</strong> a través de código, apoyándose en <strong>lenguajes de programación</strong> para lograr este objetivo. Cada lenguaje de programación tiene características únicas y ventajas frente a otros lenguajes; sin embargo, todos comparten algo en común: cuentan con <strong>estructuras</strong> básicas, como condicionales, bucles y estructuras de datos, entre otras. Además, también incluyen conceptos clave como variables, constantes, operadores y tipos de datos.</p>
+
+    <h3 id="lenguajes-programacion">Lenguajes de Programación Populares</h3>
+    <ul>
+      <li><strong>Python:</strong> Ideal para principiantes, análisis de datos y desarrollo web.</li>
+      <li><strong>JavaScript:</strong> Esencial para desarrollo frontend y backend con Node.js.</li>
+      <li><strong>Java:</strong> Popular en aplicaciones empresariales y Android.</li>
+      <li><strong>C++:</strong> Usado en sistemas embebidos y videojuegos.</li>
+    </ul>
+
+    <h2 id="como-empezar">¿Cómo empezar?</h2>
+    <p>Probablemente en este momento te sientas un poco abrumado por toda la información disponible, pero no te preocupes: iremos paso a paso, y verás cómo todo comienza a tomar forma. Para comenzar, primero debemos elegir una <strong>rama del desarrollo</strong>. Existen múltiples áreas en el desarrollo de software, como <strong>frontend</strong>, <strong>backend</strong>, <strong>DevOps</strong>, <strong>análisis de datos</strong> y <strong>ciberseguridad</strong>. Estas son solo algunas de las especialidades entre las que puedes escoger. A continuación, haremos énfasis en algunas de estas áreas para ayudarte a encontrar tu especialidad.</p>
+
+    <h3 id="metodologias-agiles">Metodologías Ágiles</h3>
+    <p>Las <strong>metodologías ágiles</strong> son un enfoque iterativo y colaborativo para gestionar proyectos de software. Entre las más conocidas están Scrum y Kanban. Estas metodologías permiten adaptarse a cambios rápidamente y entregar valor de manera continua.</p>
+
+    <h3 id="ciclo-vida-software">Ciclo de Vida del Software</h3>
+    <p>El <strong>ciclo de vida del software</strong> incluye fases como planificación, diseño, desarrollo, pruebas, implementación y mantenimiento. Cada fase es crucial para garantizar la calidad del producto final.</p>
+
+  </main>
+
+  <aside class="col-3">
+    <section class="text-center frase-inspiradora">
+      <h3>¡Inspírate!</h3>
+      <p><span class="frase-inspiradora">"Si puedes imaginarlo, puedes programarlo."</span> - Programación ATS</p>
+    </section>
+    <section class="articulos-populares">
+      <h3>Artículos Populares</h3>
+      <ul>
+        <li><a href="#metodologias-agiles">5 Beneficios de las Metodologías Ágiles</a></li>
+        <li><a href="#programacion">Cómo elegir tu primer lenguaje de programación</a></li>
+        <li><a href="#software">Herramientas imprescindibles para desarrolladores</a></li>
+      </ul>
+    </section>
+  </aside>
+</div>
+{% endblock %}
