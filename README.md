@@ -35,12 +35,3 @@ Copia la dirección que aparece en la consola (algo como: `http://127.0.0.1:5000
 
 ## **Contribuye al proyecto**  
 Si tienes sugerencias, ideas o mejoras, no dudes en contribuir. Toda retroalimentación es bienvenida. 🤝  
-
----
-
-## **Contacto**  
-Si tienes alguna duda o pregunta, ¡contáctame! Estoy aquí para ayudarte en tu camino como desarrollador. 💻  
-
----
-
-Espero que esta mejora sea de tu agrado. 😊
