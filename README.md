@@ -1,7 +1,3 @@
-Aquí tienes una versión más atractiva y estéticamente agradable para el README:
-
----
-
 # **Blog de Desarrollo de Software**  
 ¡Bienvenido! Si estás aprendiendo desarrollo de software y buscas contenido útil para tu formación, ¡estás en el lugar correcto! 🚀
 
