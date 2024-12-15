@@ -10,8 +10,16 @@ body{
     height: fit-content;
 }
 /* Barra  de navegacion */
+.nav-link{
+    color: #ffffff;
+}
+.nav-link:hover{
+    color: #201e1e;
+    text-shadow: 5px 5px 5px #ffffff;
+}
 .navbar{
-    
+    background: rgb(34,37,195);
+    background: linear-gradient(0deg, rgba(34,37,195,1) 0%, rgba(45,112,253,1) 100%);
     width: 100%;
     position: sticky;
     top: 0.1px;
