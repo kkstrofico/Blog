@@ -73,6 +73,24 @@ footer{
     justify-content: space-evenly;
     align-items: center;
 }
+.camino-software{
+    width: 500px;
+    border-radius: 5px;
+}
+/* Dev Software */
+.bottom-section, .top-secction{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.img-bottom,.img-top{
+    transition: filter .5s;
+}
+.img-bottom:hover,.img-top{
+    filter: drop-shadow(5px 5px 5px #fff);
+}
 @media (max-width:500px) {
     *{
         text-align: center;
