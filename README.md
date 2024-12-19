@@ -7,6 +7,10 @@
 - **Python** instalado en tu sistema. Puedes descargarlo desde [python.org](https://www.python.org/).
 - **Flask** como dependencia. Si aún no lo tienes, sigue las instrucciones a continuación.
 
+## **¿Qué encontrarás aquí?**  
+
+Este proyecto es un blog diseñado para compartir recursos, tips, y experiencias relacionadas con el aprendizaje de desarrollo de software. 
+
 ## Instalación 🚀
 
 1. Instala Flask ejecutando el siguiente comando en tu terminal:
@@ -38,12 +42,10 @@ Si tienes ideas o mejoras, ¡son bienvenidas! Puedes contribuir de las siguiente
 
 ## Licencia 📄
 
-## Licencia 📄
-
 Este proyecto está licenciado bajo los términos de la [Licencia MIT](LICENSE). 
 
 
 ---
 
-¡Gracias por ver este proyecto! 😊
+¡Gracias por colaborar con este proyecto! 😊
 
