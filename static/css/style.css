@@ -73,6 +73,10 @@ footer{
     justify-content: space-evenly;
     align-items: center;
 }
+.camino-software{
+    width: 500px;
+    border-radius: 5px;
+}
 /* Dev Software */
 .bottom-section, .top-secction{
     width: 100%;
